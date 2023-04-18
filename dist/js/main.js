@@ -29,3 +29,9 @@ $(function() {
     });
   }).resize();
 });
+// -- Mobile Button --//
+$(document).ready(function(){
+  $("parent").click(function(){
+  $("ul").toggleClass("child");
+  });
+});
