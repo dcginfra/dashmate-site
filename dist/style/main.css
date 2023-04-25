@@ -42,7 +42,6 @@ header{width: 100%;    position: relative;z-index: 100;}
 .child li a {color: #ffffff;}
 ul {list-style: none;margin: 0;padding: 0px;min-width: 8.65em;}
 ul ul ul {left: 100%;top: 0;margin-left: 1px;}
-li:hover {background-color: #95B4CA;}
 .parent li:hover {background-color: #0d97df;}
 .expand {font-size: 12px;float: right;margin-right: 5px;}
 
