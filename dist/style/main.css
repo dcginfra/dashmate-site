@@ -35,9 +35,10 @@ header{width: 100%;    position: relative;z-index: 100;}
 .parent {display: block;border-radius: 11px;position: relative;padding: 14px 20px;border-left: 2px solid #284a5d;border-right: 2px solid #ffffff4f;background-image: linear-gradient(212deg, #284a5d, #ffffff4f), linear-gradient(112deg, #284a5d, #ffffff4f);background-size: 100% 2px;background-position: 0 0, 0 100%;background-repeat: no-repeat;}
 .btn-linux img, .btn-mac img, .btn-windows img {width: 32px;height: 32px;margin-right: 15px;}
 .parent a {margin: 10px;color: #FFFFFF;text-decoration: none;font-weight: bold;}
+.parent ul a{margin: 0;}
 .parent:hover>ul {display: block;position: absolute;z-index:12;top: 61px;right: 0;width: 100%;}
 .child {display: none;}
-.child li {background-color: #012032;line-height: 40px;width: 100%;}
+.child li {background-color: #012032;line-height: 40px;width: 100%;padding: 0 10px;}
 .child li a {color: #ffffff;}
 ul {list-style: none;margin: 0;padding: 0px;min-width: 8.65em;}
 ul ul ul {left: 100%;top: 0;margin-left: 1px;}
