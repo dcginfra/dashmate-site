@@ -53,7 +53,7 @@ ul ul ul {left: 100%;top: 0;margin-left: 1px;}
 
 /* === Section One ===*/
 .block-video {margin: 10px 0 0;}
-img {max-width: 660px;padding: 10px;max-height: 415px;}
+.block-video img {max-width: 660px;padding: 10px;max-height: 415px;}
 
 /* === Section Two ===*/
 .section-two {flex-direction: row;align-items: flex-start;}
@@ -62,7 +62,6 @@ img {max-width: 660px;padding: 10px;max-height: 415px;}
 .icon-img {margin: 10px;}
 .icon-text h6,.icon-text p {margin: 5px 0;}
 .icon-text h6 {font-size: 18px;}
-.icon-text {}
 .block-img {width: 60%;}
 
 /* === Section Three ==*/
@@ -193,6 +192,7 @@ nav .nav-list {display: none;padding: 0;margin: 20px 0 0;}
 .section{margin: 20px auto;}
 @media screen and (min-width:800px) {
 .nav-list {display: block !important;}
+}
 }
 #navbar-toggle {position: absolute;top: 50%;cursor: pointer;padding: 10px 35px 16px 0px;}
 #navbar-toggle span, #navbar-toggle span:before, #navbar-toggle span:after {cursor: pointer;border-radius: 1px;height: 3px;width: 30px;background: #525c66;position: absolute;display: block;content: '';transition: all 300ms ease-in-out;}
